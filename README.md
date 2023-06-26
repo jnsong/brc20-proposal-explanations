@@ -25,7 +25,7 @@ interface IBRC20 {
 
 To incorporate ordinal support in your BRC20 contract, follow these steps:
 
-1. **Define the multipliers for uncommon, rare, and epic satoshis** in your contract code:
+1. **Define the multipliers for uncommon, rare, and epic satoshis** in your contract code or during deployment:
 
     ```javascript
     const MULTIPLIER_UNCOMMON = 1.5;
