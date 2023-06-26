@@ -56,7 +56,7 @@ To incorporate ordinal support in your BRC20 contract, follow these steps:
     }
     ```
 
-3. Use the `mint` functions in your contract to **support the optional `ordinal` parameter** for minting and transferring tokens with specific ordinals.
+3. Use the `mint` functions in your contract to **support the optional `ordinal` parameter** for minting tokens with specific ordinals.
 
 4. Use the `balanceOf` function to **retrieve the balance of an account**, without considering the ordinal parameter.
 
